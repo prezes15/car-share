@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/car.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/48dee0436b.js" crossorigin="anonymous"></script>
+    <title>CarShare</title>
+</head>
+<body>
+    <nav>
+        <p id="carshare">Wypożyczalnia samochodowa <span id="p_carshare" style="color: limegreen;"><a href="index.html" id="mainsite">CarShare</a></span></p>
+        <ul>
+            <li><a href="cennik.html">Cennik</a></li>
+            <li><a href="flota.html">Nasza flota</a></li>
+            <li><a href="tworzenie_konta1.html">Stwórz konto</a></li>
+            <li><a>Pomoc</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="banner">
+            <div class="overlay"></div>
+            <div class="form-container">
+                <h3>wybierz rodzaj samochodu</h3>
+                <select>
+                    <option>samochód osobowy</option>
+                    <option>samochód dostawczy</option>
+                </select>
+                
+                <h3>czas odbioru samochodu</h3>
+                <div class="input-group">
+                    <input type="date">
+                    <input type="time">
+                </div>
+                <h3>czas zwrotu samochodu</h3>
+                <div class="input-group">
+                    <input type="date">
+                    <input type="time">
+                </div>
+                <button class="reserve-btn">REZERWUJ</button>
+            </div>
+        </div>
+        <div class="special-offers-hr">
+            <div class="line"></div>    
+        </div>
+
+        <div id="special-offers">
+        
+        <div id="special-images">
+            <div class="special-offer" >
+                <img src="images/znizka1.png" alt="znizka" id="img1">
+                <div class="overlay-text">
+                   
+                    <div class="discount">-15% OFF</div>
+                   
+                </div>
+            </div>
+            
+            <div class="special-offer">
+                <img src="images/znizka2.png" alt="znizka" id="img2">
+                <div class="overlay-text">
+                   
+                    <div class="discount">-30% OFF</div>
+            
+                </div>
+            </div>
+        </div>
+        <div class="special-offers-hr">
+            <div class="line"></div>    
+        </div>
+        </div>
+        <div id="app" style="background-color: #f0f8ff;">
+            <h1 style="color: #333; text-align: center; font-size: 2em;">Pobierz aplikację na telefon</h1>
+            <p style="color: #333; text-align: center; font-weight: bold; font-size: 1.2em;">Najszybszy i najłatwiejszy sposób dokonywania rezerwacji, ich modyfikowania i zwrotu</p>
+            <div id="apss" style="display: flex; justify-content: center; gap: 30px; margin-top: 15px;">
+                <a href="https://play.google.com/store/apps" target="_blank">
+                    <img src="images/g_play.png" alt="Pobierz na Google Play" style="width: 200px;">
+                </a>
+                <a href="https://www.apple.com/pl/app-store/" target="_blank">
+                    <img src="images/apple_store.png" alt="Pobierz w App Store" style="width: 200px;">
+                </a>
+            </div>
+        </div>
+        
+    </main>
+   
+    <footer>
+        <section id="kontakt" class="footer">
+            <h5>Kontakt:</h5>
+            <p>
+                <a href="mailto:wpisz.email@carshare.pl">✉️ wpisz.email@carshare.pl</a><br>
+                📞 111 111 111
+            </p>
+        </section>
+
+        <section id="pomoc" class="footer">
+            <h5>Pomoc i regulamin:</h5>
+            <p>
+                <a href="regulamin.html">Regulamin i prywatność</a><br>
+                <a href="system.html">System zgłaszania naruszeń</a>
+            </p>
+        </section>
+
+        <section id="flota" class="footer">
+            <h5>Nasza flota:</h5>
+            <p>
+                <a href="#">Samochody osobowe</a><br>
+                <a href="#">Samochody dostawcze</a>
+            </p>
+        </section>
+        
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" class="social-icon fb">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" class="social-icon ig">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" class="social-icon tw">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+        </div>
+        
+
+        
+    </footer>
+</body>
+</html>

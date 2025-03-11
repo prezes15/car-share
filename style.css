@@ -1,0 +1,320 @@
+* {
+    font-family: 'Lucida Sans Unicode';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #fff;
+}
+
+
+a  {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+    font-size: 20px;
+   
+}
+
+#mainsite{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+nav ul li a:hover {
+    font-weight: bold; 
+    text-decoration: underline;
+    text-decoration-color: limegreen ;
+    text-underline-offset: 5px;
+}
+h1, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: black;
+}
+
+#carshare {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#baner_img{
+    height: 700px;
+    width: 100%;
+    position: relative;
+    
+}
+form {
+    background-color: black;
+    position: absolute;
+    top: 20%;
+    right: 8%;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+select, input {
+    width: 100%;
+    height: 30px;
+    
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+footer h5 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+
+}
+
+.footer p, .footer a {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #bbb;
+}
+
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background: url('images/car-baner.webp') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.form-container {
+    position: relative;
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    height: 350px;
+    width: 400px;
+    text-align: center;
+    left: 32%;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.reserve-btn {
+    background: limegreen;
+    color: black;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; 
+}
+
+.input-group input {
+    flex: 1; 
+}
+
+.special-offers-hr {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.line {
+   
+    height: 2px; 
+    background-color: limegreen;
+    width: 800px;
+    margin: 20px;
+    
+}
+
+#special-offers {
+    text-align: center; 
+ 
+}
+
+.special-offer {
+    position: relative;
+    display:inline-block;
+    width: 500px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.special-offer img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+    filter: brightness(50%); 
+    transition: filter 0.3s ease;
+    
+}
+
+.special-offer:hover img {
+    filter: brightness(70%);
+}
+
+.overlay-text {
+    position: absolute;
+    top: 5%;
+    left: 95%;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.overlay-text h3 {
+    color: limegreen;
+    font-size: 16px;
+}
+
+.overlay-text p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.overlay-text span {
+    color: limegreen;
+}
+
+.discount {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: black;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.read-more {
+    position: absolute;
+    bottom: 10px;
+    left: 10%;
+    color: limegreen;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+#img1 {
+    padding-right: 10px;
+}
+
+#img2 {
+    padding-left: 10px;
+}
+
+
+.social-icons {
+    position: fixed;
+    top: 50%;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size: 24px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+
+.fb:hover { background: limegreen; }  
+.ig:hover { background: limegreen; }  
+.tw:hover { background: limegreen; }  
+
+#apss a img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#apss a:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

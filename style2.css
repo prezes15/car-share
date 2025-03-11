@@ -1,0 +1,158 @@
+* {
+    font-family: 'Lucida Sans Unicode';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+    font-size: 20px;
+   
+}
+nav ul li a:hover {
+    font-weight: bold; 
+    text-decoration: underline;
+    text-decoration-color: limegreen ;
+    text-underline-offset: 5px;
+}
+h1, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: black;
+}
+
+#carshare {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+#mainsite{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+#rejestracja_baner, #okno_rejestracji {
+    text-align: center;
+}
+
+#okno_rejestracji {
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%; 
+}
+
+#imie,#nazwisko {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 50px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+#data {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+#next {
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: limegreen;
+    border-radius: 10px;
+    color: white;
+    width: 320px;
+    height: 60px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+#next:hover {
+    transform: scale(1.2); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+}
+
+#next:active {
+    transform: scale(0.98); 
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+footer h5 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+
+}
+
+.footer p, .footer a {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #bbb;
+}
+
+#copy {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+main {
+    height: 670px;
+    display: flex;
+}
+
+h2 {
+    display: block;
+    font-size: 2em;
+    margin-bottom: 15px;
+}

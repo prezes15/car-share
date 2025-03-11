@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style2.css">
+    <title>CarShare</title>
+    <link rel="shortcut icon" href="images/car.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <p id="carshare">Wypożyczalnia samochodowa <span id="p_carshare" style="color: limegreen;"><a href="index.html" id="mainsite">CarShare</a></span></p>
+        <ul>
+            <li><a href="cennik.html">Cennik</a></li>
+            <li><a href="flota.html">Nasza flota</a></li>
+            <li><a href="tworzenie_konta1.html">Stwórz konto</a></li>
+            <li><a>Pomoc</a></li>
+        </ul>
+        
+    </nav>
+    <hr width="100%">
+    <main>
+        
+       
+        <section id="okno_rejestracji">
+            <h2 style="color: limegreen;">Stwórz konto</h2>
+            <form method="POST" >
+               
+                <input type="text" required placeholder="Wpisz swoje imię" id="imie"><br>
+            
+                <input type="text" required placeholder="Wpisz swoje nazwisko" id="nazwisko"><br>
+        
+               
+                <input type="submit" value="Przejdź dalej" id="next" onclick="next1()">
+            </form>
+        </section>
+    </main>
+    <hr width="100%">
+    <footer>
+        <section id="kontakt" class="footer">
+            <h5>Kontakt:</h5>
+            <p>
+                <a href="mailto:wpisz.email@carshare.pl">✉️ wpisz.email@carshare.pl</a><br>
+                📞 111 111 111
+            </p>
+        </section>
+
+        <section id="pomoc" class="footer">
+            <h5>Pomoc i regulamin:</h5>
+            <p>
+                <a href="regulamin.html">Regulamin i prywatność</a><br>
+                <a href="system.html">System zgłaszania naruszeń</a>
+            </p>
+        </section>
+
+        <section id="flota" class="footer">
+            <h5>Nasza flota:</h5>
+            <p>
+                <a href="#">Samochody osobowe</a><br>
+                <a href="#">Samochody dostawcze</a>
+            </p>
+        </section>
+      
+        
+    </footer>
+</body>
+</html>
