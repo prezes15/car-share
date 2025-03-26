@@ -70,14 +70,46 @@ li {
     margin-top: 100px;
     justify-content: center;
     gap: 500px;
+    height: 230px;
+    background-color: black;
 }
 #passenger, #delivery{
     font-size: 20px;
-    border: solid white 3px;
     padding: 10px;
     padding-left: 100px;
     padding-right: 100px;
     border-radius: 10px;
-    background-color: #32cd32;
+    background-color: #32cd32;  
+    color: black;
+    cursor: pointer;
+    
+}
+
+.img_buttons{
+    display: flex;
+    width: 400px;
+    position: absolute
+    
+}
+
+#lewy_img{
+    top: 300px;
+    height: 220px;
+    width: 670px;
+    z-index: 11111;
+    right: 1100px
+}
+
+#prawo_img{
+    top: 300px;
+    z-index: 11111;
+    height: 220px;
+    width: 670px;
+}
+
+main {
+    background-color: white;
+    height: 400px;
+    position: relative;
     
 }
